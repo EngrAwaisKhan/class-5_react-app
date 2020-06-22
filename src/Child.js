@@ -4,7 +4,7 @@ const Child=()=>{
     let countervalue = useContext(countercontext)
     return(
     <div>
-        <h1 style={{textAlign: "center"}}>PIAIC Bootcamp2020 Class-4</h1><br/><hr/>
+        <h1 style={{textAlign: "center"}}>PIAIC Bootcamp2020 Class-5</h1><br/><hr/>
         <h2 style={{textAlign: "center"}}>First Child using Context API</h2>
         <h3>Counter value: {countervalue[0]}</h3>
         <button onClick = {()=>{countervalue[1](++countervalue[0])}}>Increment Counter</button>
