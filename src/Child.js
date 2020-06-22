@@ -8,6 +8,7 @@ const Child=()=>{
         <h2 style={{textAlign: "center"}}>First Child using Context API</h2>
         <h3>Counter value: {countervalue[0]}</h3>
         <button onClick = {()=>{countervalue[1](++countervalue[0])}}>Increment Counter</button>
+        <button onClick = {()=>{countervalue[1](--countervalue[0])}}>Decrement Counter</button>
         <br/>
         <hr/>
     </div>
