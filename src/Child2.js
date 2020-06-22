@@ -8,6 +8,7 @@ const Child2 = () =>{
             <h2 style = {{textAlign:"center"}}>Second Child using Reducer API</h2>
             <h3>Value of Reducer: {state}</h3>
             <button onClick = {()=>{dispatch('INCREMENT')}}>Increment Reducer</button>
+            <button onClick = {()=>{dispatch('DECREMENT')}}>Decrement Reducer</button>
         </div>
     )
 }
